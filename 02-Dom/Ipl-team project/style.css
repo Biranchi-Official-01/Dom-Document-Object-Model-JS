@@ -1,0 +1,172 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+main img{
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.section1{
+    position: relative;
+    /* background-color: red; */
+    width: 90%;
+    left: 5%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 750px;
+    width: 85vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    position: relative;
+    margin-top: 15px;
+    width: 95%;
+    height: 15vh;
+    /* background-color: yellow; */
+    
+}
+.top h1{
+    position: absolute;
+    /* background-color: red; */
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.top .logo img{
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    left: 86%;
+    top: 15%;
+}
+.middle{
+    margin-top: 15px;
+    width: 95%;
+    height: 65vh;
+    /* background-color: green; */
+    display: flex;
+    gap: 10px;
+    
+}
+.middle .left{
+    /* background-color: red; */
+    height: 95%;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle .left .container1{
+    height: 95%;
+    width: 95%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    position: relative;
+}
+.middle .left .container1 img{
+    position: absolute;
+    top: 30px;
+    height: 350px;
+    width: 350px;
+    /* background-color: yellow; */
+}
+.middle .left .container1 h3{
+    position: absolute;
+    /* background-color: greenyellow; */
+    font-weight: 700;
+    font-size: 40px;
+    top: 85%;
+}
+.middle .right .container2{
+    height: 95%;
+    width: 95%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.middle .right .container2 .chnlogo{
+    height: 75vh;
+    width: 93%;
+    /* background-color: red; */
+    position: relative;
+}
+.middle .right .container2 .chnlogo img{
+    height: 30vh;
+    width: 20vw;
+    position: absolute;
+    left: 20%;
+    top: 9%;
+}
+.middle .right .container2 .trofy{
+    height: 45vh;
+    width: 100%;
+    /* background-color: firebrick; */
+    position: relative;
+    object-fit: cover;
+}
+.middle .right .container2 .trofy img{
+    height: 80%;
+    width: 20%;
+    display: grid;
+    margin-top: 15px;
+    /* background-color: black; */
+    
+}
+.middle .right{
+    /* background-color: blueviolet; */
+    height: 95%;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 150px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+}
+button:active{
+    scale: 0.95;
+}

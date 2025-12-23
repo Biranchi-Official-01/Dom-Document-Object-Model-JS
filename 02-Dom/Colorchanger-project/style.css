@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: black;
+    height: 100vh;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#box{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 20px 80px ;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+button:active{
+    scale: 0.85;
+}
